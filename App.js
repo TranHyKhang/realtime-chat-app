@@ -1,10 +1,26 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+// import { View, Text } from 'react-native'
+import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper'
+import Routes from './src/navigations/Routes';
 
-export default function App() {
+function App() {
+  return <Routes/>
+}
+
+const theme = {
+  ...DefaultTheme,
+  roundness: 2,
+  colors: {
+    ...DefaultTheme.colors,
+    primary: '#0051ff',
+    accent: '#f1c40f',
+  },
+};
+
+export default () => {
   return (
-    <View>
-      <Text></Text>
-    </View>
+    <PaperProvider theme={theme}>
+      <App/>
+    </PaperProvider>
   )
 }

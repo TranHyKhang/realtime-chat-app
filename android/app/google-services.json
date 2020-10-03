@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "688019392378",
+    "firebase_url": "https://real-time-chatapp-20583.firebaseio.com",
+    "project_id": "real-time-chatapp-20583",
+    "storage_bucket": "real-time-chatapp-20583.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688019392378:android:2219a483959506f3b2f8c3",
+        "android_client_info": {
+          "package_name": "com.appchatreadltime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "688019392378-s78nn7pisiibau83olf5t20t87bc5s7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKf2DVIGF0PbKksOAdlaD27vabgyGzne0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "688019392378-s78nn7pisiibau83olf5t20t87bc5s7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

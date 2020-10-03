@@ -1,7 +1,9 @@
 import React from 'react'
 // import { View, Text } from 'react-native'
 import {DefaultTheme, Provider as PaperProvider} from 'react-native-paper'
+import {AuthProvider} from './src/contexts/AuthProvider';
 import Routes from './src/navigations/Routes';
+
 
 function App() {
   return <Routes/>
@@ -20,7 +22,9 @@ const theme = {
 export default () => {
   return (
     <PaperProvider theme={theme}>
-      <App/>
+      <AuthProvider>
+        <App/>
+      </AuthProvider>
     </PaperProvider>
   )
 }

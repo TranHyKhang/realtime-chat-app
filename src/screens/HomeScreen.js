@@ -1,7 +1,8 @@
 import React, {useContext} from 'react'
-import { View, Text, StyleSheet, Button} from 'react-native'
+import { View, Text, StyleSheet, Button, TouchableOpacity} from 'react-native'
 import { AuthContext } from '../contexts/AuthProvider'
 import {useTheme} from 'react-native-paper'
+import Icon from 'react-native-vector-icons/MaterialIcons'
 
 
 
@@ -36,6 +37,7 @@ export default function HomeScreen() {
         <View style={styles.container}>
             <View style={styles.header}>
                 <Text style={styles.headerTitle}>Home</Text>
+                
             </View>
             <View style={styles.body}>
                 <Text>Body</Text>

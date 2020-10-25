@@ -84,7 +84,7 @@ export default function HomeScreen({navigation}) {
                 <FlatList
                     data={threads}
                     keyExtractor={(item) => item._id}
-                    renderItem={({item}) => <FlatlistItem name={item.name} desc={item.description}/>}
+                    renderItem={({item}) => <FlatlistItem navigation={navigation} name={item.name} desc={item.description}/>}
                 />
             </View>
             <View style={styles.footer}>
